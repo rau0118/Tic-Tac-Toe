@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightblue;
+  }
+  section {
+      text-align: center;
+  }
+  .game--container {
+      width: 310px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+  }
+  .cell {
+      width: 100px;
+    height: 100px;
+    background: lightblue;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 100px;
+  }
+  .game--restart {
+    background-color: Green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin : 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
